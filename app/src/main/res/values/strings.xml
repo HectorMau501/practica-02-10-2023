@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">practica-02-10-2023</string>
+
+    <!--    Etiquetas a capturar-->
+    <string name="titulo">Motocicletas Correcaminos</string>
+    <string name="correo">Ingresa correo</string>
+    <string name="contrasena">Ingresa contraseña</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="nosotros">En Motocicletas Correcaminos sabemos lo importante que es contar con todo lo importante que es contar con todo lo necesario para disfrutar la pasion del motociclismo al maximo. \n\nMotocicletas Correcaminos surge precisamente de esa pasion por las motocicletas. Sabemos lo que es salir a rodar, solo o en grupo; por eso ofrecemos la mayor seguridad para el viaje sea placentero. \n\nEs por esa experiencia que en Motocicletas Correcaminos nos preocupamos por ofrecerte solo lo mejor en accesorio, asi como servicio y atencion.</string>
+    <string name="detalle">Detalles de Accesorio</string>
+    <string name="descripcion">Descripción del producto:</string>
+    <string name="otro">Opcion Desplegable</string>
+    <string name="content">Content description</string>
+
+    <!--    Etiquetas autogeneradas-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Motocicletas Correcaminos</string>
+    <string name="nav_header_subtitle">correcaminos@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Cerrar sesión</string>
+
+    <!--    Opciones de Menu-->
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Accesorios</string>
+    <string name="menu_slideshow">Nosotros</string>
+</resources>

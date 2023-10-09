@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <TextView
+        android:id="@+id/text_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="408dp"
+        android:layout_height="640dp"
+        android:layout_marginTop="26dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_gallery">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgAccesorio01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/content"
+                android:src="@drawable/accesorio01"
+                tools:ignore="imageContrastCheck" />
+
+            <ImageView
+                android:id="@+id/imgAccesorio02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/content"
+                android:src="@drawable/accesorio02"
+                tools:ignore="imageContrastCheck" />
+
+            <ImageView
+                android:id="@+id/imgAccesorio03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/content"
+                android:src="@drawable/accesorio03"
+                tools:ignore="imageContrastCheck" />
+
+            <ImageView
+                android:id="@+id/imgAccesorio04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/content"
+                android:src="@drawable/accesorio04"
+                tools:ignore="imageContrastCheck" />
+
+            <ImageView
+                android:id="@+id/imgAccesorio05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/content"
+                android:src="@drawable/accesorio05"
+                tools:ignore="imageContrastCheck" />
+
+            <ImageView
+                android:id="@+id/imgAccesorio06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/content"
+                android:src="@drawable/accesorio06"
+                tools:ignore="imageContrastCheck" />
+
+            <ImageView
+                android:id="@+id/imgAccesorio07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/content"
+                android:src="@drawable/accesorio07"
+                tools:ignore="imageContrastCheck" />
+
+            <ImageView
+                android:id="@+id/imgAccesorio08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/content"
+                android:src="@drawable/accesorio08"
+                tools:ignore="imageContrastCheck" />
+
+            <ImageView
+                android:id="@+id/imgAccesorio09"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/content"
+                android:src="@drawable/accesorio09"
+                tools:ignore="imageContrastCheck" />
+
+            <ImageView
+                android:id="@+id/imgAccesorio10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/content"
+                android:src="@drawable/accesorio10"
+                tools:ignore="imageContrastCheck" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
